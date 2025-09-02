@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/mushroom"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/mushroom"
+        android:layout_marginBottom="100dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerSensitivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:text="Reset rotation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tvValues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ax=0 ay=0 az=0 lux=0"
+        android:layout_marginBottom="200dp"
+        />
+
+    <ToggleButton
+        android:id="@+id/toggleLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Light sensor ON"
+        android:textOff="Light sensor OFF"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+</LinearLayout>
